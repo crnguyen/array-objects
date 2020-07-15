@@ -25,3 +25,10 @@ while (myOtherNumber < numberTwo) {
     console.log(myOtherNumber); //prints 10, 11
     myOtherNumber += 1; //prints 11, 12 ---- adding 1 each time the loop runs
 }
+
+var numberThree = 30;
+var numberFour = 20;
+while (numberFour < numberThree) {
+    console.log(numberFour);
+    numberFour += 1;
+}
