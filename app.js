@@ -33,7 +33,7 @@ while (numberFour < numberThree) {
     numberFour += 1;
 }
 
-//for loops
+//FOR LOOPS
 for (var i = 0; i < 10; i++) {
     console.log(i); //starts at 0, increases by 1 until you reach 9
 }
@@ -54,4 +54,12 @@ console.log(colors);
 for (var i = 0; i < colors.length; i++) {
     var eachColor = colors[i];
     console.log(eachColor);
+}
+
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford'];
+console.log(cars);
+
+for (let i =0; i < cars.length; i++) {
+    let eachCar = cars[i];
+    console.log(eachCar);
 }
