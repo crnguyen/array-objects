@@ -63,3 +63,37 @@ for (let i =0; i < cars.length; i++) {
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+//OBJECTS
+//key: value pairs - separated my commas
+
+const cristina = {
+    fullName: "Cristina Nguyen",
+    age: 26,
+    myLocation: "SJ",
+    placesTraveled: ["New Orleans", "Ohio", "Hawaii"]
+}
+
+console.log(cristina);
+
+//return myLocation value 
+console.log(cristina.myLocation);
+
+//print Ohio
+console.log(cristina.placesTraveled[1]);
+
+// what would an instagram page include
+const myCoolPost = {
+    username: "@crisssytina",
+    likes: 100,
+    comments: ["nice post", "awesome", "woah"],
+    caption: "Day 3 of SEI",
+    picture: "img link",
+    shares: 12
+}
+//likes, captions, shares, comments, username, pictures
+console.log(myCoolPost);
+
+//how to add more info to an object - the object above 
+myCoolPost.myLoc = "San Jose";
+console.log(myCoolPost);
