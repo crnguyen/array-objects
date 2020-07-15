@@ -32,3 +32,14 @@ while (numberFour < numberThree) {
     console.log(numberFour);
     numberFour += 1;
 }
+
+//for loops
+for (var i = 0; i < 10; i++) {
+    console.log(i); //starts at 0, increases by 1 until you reach 9
+}
+
+for (var i = 0; i < food.length; i++) {
+    //console.log(food[i]) //console log i starting from index 0
+    var eachFood = food[i]; //runs through each element of the Food array// use this method instead of the method above **
+    console.log(eachFood);
+}
