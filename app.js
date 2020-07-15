@@ -124,7 +124,6 @@ sayHelloFinal();
 
 //PARAMETERS - adding information inside of a function
 //add a function with a for loop, and if else statement
-const numbers = [1, 2, 3, 4, 5];
 const otherNums = [11, 22, 33, 44, 55];
 function printNumbers(numbers) { //numbers is placeholder. you can call it whatever you want.
     //console.log(numbers);
@@ -140,3 +139,19 @@ function printNumbers(numbers) { //numbers is placeholder. you can call it whate
 }
 //printNumbers(numbers);
 printNumbers(otherNums);
+
+// Returning a function
+const numbers = [1, 2, 3, 4, 5, 6];
+
+function addNumbers(array) {
+    let result = 0;
+
+    for (let i = 0; i < array.length; i++) { //iterating through each element in array
+        let num = array[i]; // 1, 2, 3, 4, 5
+
+        result += num; //1, 3, 6, 10, 15
+    }
+    return result;
+}
+
+console.log(addNumbers(numbers));
