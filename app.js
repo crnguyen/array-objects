@@ -121,3 +121,22 @@ const sayHelloFinal = () => {
     console.log("Hello for the last time");
 }
 sayHelloFinal();
+
+//PARAMETERS - adding information inside of a function
+//add a function with a for loop, and if else statement
+const numbers = [1, 2, 3, 4, 5];
+const otherNums = [11, 22, 33, 44, 55];
+function printNumbers(numbers) { //numbers is placeholder. you can call it whatever you want.
+    //console.log(numbers);
+    for (let i = 0; i < numbers.length; i++){
+        let num = numbers[i];
+        
+        if (num < 40) {
+            console.log("This number is less than 40: " +num);
+        } else {
+            console.log("This number is greater than 40: " +num);
+        }
+    }
+}
+//printNumbers(numbers);
+printNumbers(otherNums);
