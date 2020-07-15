@@ -97,3 +97,27 @@ console.log(myCoolPost);
 //how to add more info to an object - the object above 
 myCoolPost.myLoc = "San Jose";
 console.log(myCoolPost);
+
+//FUNCTIONS
+//helps to make code dry
+//console.log("Hello");
+function sayHello() { //standard way to write functions
+    //write your code
+    //or write logic
+    console.log("Hello");
+}
+
+sayHello();
+sayHello();
+
+//FUNCTION EXPRESSION
+const sayHelloAgain = function() {
+    console.log("Hello Again");
+}
+sayHelloAgain();
+
+//ARROW FUNCTION
+const sayHelloFinal = () => {
+    console.log("Hello for the last time");
+}
+sayHelloFinal();
