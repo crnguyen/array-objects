@@ -43,3 +43,15 @@ for (var i = 0; i < food.length; i++) {
     var eachFood = food[i]; //runs through each element of the Food array// use this method instead of the method above **
     console.log(eachFood);
 }
+
+//make an array
+//use for loop to iterate through your array
+//print each element in your array
+
+var colors = ['green', 'blue', 'burgundy'];
+console.log(colors);
+
+for (var i = 0; i < colors.length; i++) {
+    var eachColor = colors[i];
+    console.log(eachColor);
+}
